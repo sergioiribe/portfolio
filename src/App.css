@@ -1,0 +1,12 @@
+.slick-slide {
+    display: inline-block !important;
+    text-align: center;
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+#home {
+  scroll-margin-top: 10vh; 
+}
