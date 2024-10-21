@@ -8,7 +8,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const Projects = () => {
     return (
-        <div className="mt-0 md:mt-20">
+        <div className="mt-0 ">
             <h1 className="text-3xl font-bold text-center mb-0 md:mb-8" id='projects'>Proyectos</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-10">
 

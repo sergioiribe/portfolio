@@ -16,17 +16,27 @@ export const Nav = () => {
         setIsOpen(false);
     };
 
+        // Función para hacer scroll hasta arriba
+        const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+            setIsOpen(false);  // Cierra el menú hamburguesa si está abierto
+        };
+    
+
     return (
         <div className="w-full h-[20vh] md:h-[10vh] bg-white flex items-center justify-between px-4 sticky top-0 z-50">
             {/* Logo */}
             <div className="md:w-1/4 flex justify-center font-base text-xl text-gray-600">
-                <a href="#home" className="cursor-pointer">Sergio Iribe</a>
+                <a onClick={scrollToTop} className="cursor-pointer">Sergio Iribe</a>
             </div>
 
             {/* Menu Normal */}
             <div className="hidden md:flex gap-10 w-2/4 justify-center text-gray-600">
 
-                <a href="#home" className="cursor-pointer" >Inicio</a>
+                <a onClick={scrollToTop} className="cursor-pointer" >Inicio</a>
                 <a href="#skills" className="cursor-pointer" >Tecnologias</a>
                 <a href="#projects" className="cursor-pointer" >Proyectos</a>
 

@@ -18,7 +18,7 @@ import springboot from "../assets/springboot.png";
 
 function AutoPlay() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -32,8 +32,8 @@ function AutoPlay() {
 
     <div id="skills">
       <h2 className="text-3xl font-bold text-center mb-0 md:mb-10">Tecnologias</h2>
-      <div className="slider-container w-full mx-auto ">
-        <Slider {...settings} className="flex justify-center items-center overflow-x-hidden">
+      <div className="slider-container w-full mx-auto overflow-hidden">
+        <Slider {...settings} className="flex justify-center items-center">
           <div className="flex justify-center items-center h-48 ">
             <h3 className="flex items-center justify-center h-full flex-col">
               <img src={javascript} alt="javascript" className="h-16 md:h-32 object-contain" />
