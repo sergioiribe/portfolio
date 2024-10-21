@@ -3,7 +3,7 @@ import img from '../assets/sergio_iribe.jpg';
 export const Main = () => {
   return (
     <div className="w-full h-[80vh] md:h-[90svh] bg-gray-300 mb-8 md:mb-20" id='home'>
-      <div className="w-[80%] md:w-[80%] lg:w-[50%] flex m-auto h-[80svh] flex-col-reverse md:flex-row lg:gap-x-16">
+      <div className="w-[80%] md:w-[80%] lg:w-[90%] xl:w-[70%] 2xl:w-[60%] flex m-auto h-[80svh] flex-col-reverse md:flex-row lg:gap-x-8 ">
         <div className='flex flex-col justify-start md:justify-center mt-5 md:mt-0 h-full items-start md:items-center md:w-1/2  w-[100%]'>
           <div className="w-full flex justify-center flex-col items-center">
             <div className='text-2xl md:text-4xl text-center lg:text-left w-full text-gray-600'>Hola, Soy</div>
@@ -20,7 +20,7 @@ export const Main = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center h-full items-center md:w-1/2  mt-10 md:mt-0 w-full">
-        <img src={img} alt="Sergio Iribe" className='rounded-full h-[200px] md:h-[300px] lg:h-[400px] object-cover' />
+        <img src={img} alt="Sergio Iribe" className='rounded-full h-[250px] md:h-[300px] lg:h-[400px] object-cover' />
         </div>
       </div>
     </div>
