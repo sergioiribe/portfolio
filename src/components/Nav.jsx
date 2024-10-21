@@ -61,14 +61,14 @@ export const Nav = () => {
             {/* Menú de hamburguesa desplegable */}
             {isOpen && (
                 <div className="absolute top-28 left-0 w-full bg-white flex flex-col items-center gap-4 py-4 shadow-md md:hidden text-gray-600">
-                    <button onClick={toggleMenu}>
-                        <div>Inicio</div>
+                    <button>
+                    <a href="#home" className="cursor-pointer">Inicio</a>
                     </button>
-                    <button onClick={toggleMenu}>
-                        <div>Tecnologías</div>
+                    <button>
+                    <a href="#skills" className="cursor-pointer">Tecnologias</a>
                     </button>
-                    <button onClick={toggleMenu}>
-                        <div>Proyectos</div>
+                    <button>
+                    <a href="#projects" className="cursor-pointer">Proyectos</a>
                     </button>
                     <div className="flex gap-10 mt-4">
                         <a
