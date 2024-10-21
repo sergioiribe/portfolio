@@ -21,7 +21,7 @@ export const Projects = () => {
                 ].map((project, index) => (
                     <div
                         key={index}
-                        className="relative h-[200px] md:h-[600px] w-full overflow-hidden group "
+                        className="relative h-[200px] md:h-[400px] lg-[600px] w-full overflow-hidden group "
                     >
                         <img
                             src={project.src}
