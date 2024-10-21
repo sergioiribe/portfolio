@@ -9,6 +9,11 @@ export const Nav = () => {
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+
+    };
+
+    const handleLinkClick = () => {
+        setIsOpen(false);
     };
 
     return (
@@ -20,32 +25,31 @@ export const Nav = () => {
 
             {/* Menu Normal */}
             <div className="hidden md:flex gap-10 w-2/4 justify-center text-gray-600">
-                <button>
-                    <a href="#home" className="cursor-pointer">Inicio</a>
-                </button>
-                <button>
-                    <a href="#skills" className="cursor-pointer">Tecnologias</a>
-                </button>
-                <button>
-                <a href="#projects" className="cursor-pointer">Proyectos</a>
-                </button>
+
+                <a href="#home" className="cursor-pointer" onClick={handleLinkClick}>Inicio</a>
+                <a href="#skills" className="cursor-pointer" onClick={handleLinkClick}>Tecnologias</a>
+                <a href="#projects" className="cursor-pointer" onClick={handleLinkClick}>Proyectos</a>
+
             </div>
 
             {/* Íconos de redes sociales */}
             <div className="hidden md:flex gap-10 w-1/4 justify-center items-center text-gray-600">
                 <a
+                    onClick={handleLinkClick}
                     href="https://github.com/sergioiribe"
                     target="_blank"
                     rel="noopener noreferrer">
                     <ImGithub size="20px" />
                 </a>
                 <a
+                    onClick={handleLinkClick}
                     href="https://www.linkedin.com/in/sergio-iribe-carrazco/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <FaLinkedin size="20px" />
                 </a>
                 <a
+                    onClick={handleLinkClick}
                     href="mailto:sergio.iribec@gmail.com">
                     <IoMail size="22px" />
                 </a>
@@ -62,13 +66,13 @@ export const Nav = () => {
             {isOpen && (
                 <div className="absolute top-28 left-0 w-full bg-white flex flex-col items-center gap-4 py-4 shadow-md md:hidden text-gray-600">
                     <button>
-                    <a href="#home" className="cursor-pointer">Inicio</a>
+                        <a href="#home" className="cursor-pointer">Inicio</a>
                     </button>
                     <button>
-                    <a href="#skills" className="cursor-pointer">Tecnologias</a>
+                        <a href="#skills" className="cursor-pointer">Tecnologias</a>
                     </button>
                     <button>
-                    <a href="#projects" className="cursor-pointer">Proyectos</a>
+                        <a href="#projects" className="cursor-pointer">Proyectos</a>
                     </button>
                     <div className="flex gap-10 mt-4">
                         <a
@@ -84,9 +88,9 @@ export const Nav = () => {
                             <FaLinkedin size="20px" />
                         </a>
                         <a
-                            href="mailto:sergio.iribec@gmail.com" 
+                            href="mailto:sergio.iribec@gmail.com"
                             target="_blank"
-                            >
+                        >
                             <IoMail size="22px" />
                         </a>
                     </div>
