@@ -14,7 +14,7 @@ export const Projects = () => {
 
                 {[
                     { src: elephant, title: 'Elephant', description: 'Tienda en linea de productos elephant', url: 'https://www.elephantarchives.com/', languages: 'React, TailwindCSS, Axios, Laravel, AWS, MySQL, Stripe, Paypal', github: 'https://github.com/sergioiribe/elephant' },
-                    { src: apoint, title: 'Apoint', description: 'App para gestionar de citas ', url: '', languages: 'SwiftUI, MVVM, MySQL, Python, JWT', github: 'https://github.com/sergioiribe/Apoint'  },
+                    { src: apoint, title: 'Apoint', description: 'App para gestionar citas ', url: '', languages: 'SwiftUI, MVVM, MySQL, Python, JWT', github: 'https://github.com/sergioiribe/Apoint'  },
                     { src: hotelalura, title: 'Hotel Alura', description: 'Sistema de gestion de hotel para registro y salidas de huespedes', url: '', languages: 'Java, JavaFX, JPA, Hibernate, MySQL', github: 'https://github.com/sergioiribe/hotelalura'  },
                     { src: paisesdark, title: 'Country Flag Finder', description: 'Buscador de banderas de paises con informacion detallada de cada uno de ellos', url: 'https://sergioiribe.github.io/country-flag-finder/', languages: 'React, TailwindCSS, Axios, REST API', github: 'https://github.com/sergioiribe/country-flag-finder' },
 
