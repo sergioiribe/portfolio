@@ -47,7 +47,7 @@ export const Projects = () => {
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 flex items-center gap-2"
+                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 md:flex items-center gap-2 hidden"
                                 >
                                     <ImGithub size={20} />
                                     Ver en GitHub
@@ -56,10 +56,26 @@ export const Projects = () => {
                                     href={project.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 flex items-center gap-2"
+                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 md:flex items-center gap-2 hidden"
                                 >
                                     <FaExternalLinkAlt size={20} />
                                     Visitar pagina
+                                </a>)}
+                                <a
+                                    href={project.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 flex items-center gap-2 md:hidden"
+                                >
+                                    <ImGithub size={20} />
+                                </a>
+                                {project.url && (<a
+                                    href={project.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100 active:opacity-100 flex items-center gap-2 md:hidden"
+                                >
+                                    <FaExternalLinkAlt size={20} />
                                 </a>)}
                             </div>
                         </div>

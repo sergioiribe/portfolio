@@ -60,7 +60,7 @@ export const Nav = () => {
 
             {/* Menú de hamburguesa desplegable */}
             {isOpen && (
-                <div className="absolute top-20 left-0 w-full bg-white flex flex-col items-center gap-4 py-4 shadow-md md:hidden text-gray-600">
+                <div className="absolute top-28 left-0 w-full bg-white flex flex-col items-center gap-4 py-4 shadow-md md:hidden text-gray-600">
                     <button onClick={toggleMenu}>
                         <div>Inicio</div>
                     </button>
