@@ -4,6 +4,7 @@ import AutoPlay from './components/AutoPlay'
 import { Main } from './components/Main'
 import { Nav } from './components/Nav'
 import { Projects } from './components/Projects'
+import { Footer } from './components/Footer'
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Main />
         <AutoPlay />
         <Projects />
+        <Footer/>
       </div>
     </>
   )
