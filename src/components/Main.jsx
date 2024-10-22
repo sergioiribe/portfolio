@@ -6,7 +6,7 @@ export const Main = () => {
       <div className="w-[80%] md:w-[80%] lg:w-[90%] xl:w-[70%] 2xl:w-[60%] flex m-auto h-[80svh] flex-col-reverse md:flex-row lg:gap-x-8 ">
         <div className='flex flex-col justify-start md:justify-center mt-5 md:mt-0 h-full items-start md:items-center md:w-1/2  w-[100%]'>
           <div className="w-full flex justify-center flex-col items-center">
-            <div className='text-2xl md:text-4xl text-center lg:text-left w-full text-gray-600'>Hola, Soy</div>
+            <div className='text-2xl md:text-4xl text-center lg:text-left w-full text-gray-600'>Hola, soy</div>
             <div className=' text-center text-4xl font-semibold md:text-4xl lg:text-6xl lg:text-left w-full text-gray-800 md:font-bold lg:font-normal'>{`<Sergio Iribe/>`}</div>
             <div className='text-2xl md:text-4xl text-center lg:text-left w-full text-gray-600'>Programador</div>
             <a
