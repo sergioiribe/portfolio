@@ -10,8 +10,8 @@ export const Main = () => {
             <div className=' text-center text-4xl font-semibold md:text-4xl lg:text-6xl lg:text-left w-full text-gray-800 md:font-bold lg:font-normal'>{`<Sergio Iribe/>`}</div>
             <div className='text-2xl md:text-4xl text-center lg:text-left w-full text-gray-600'>Programador</div>
             <a
-              href="/cvSergioIribe.pdf"
-              download="cvSergioIribe.pdf"
+              href="/portfolio/CVSERGIOIRIBE.pdf"
+              download="CVSERGIOIRIBE.pdf"
               className='text-lg underline md:text-xl mt-5 md:mt-10 text-center lg:text-left text-gray-600 w-full hover:text-black block'
             >
               Descargar CV
