@@ -55,7 +55,7 @@ function AutoPlay() {
           <div className="flex justify-center items-center h-48">
             <h3 className="flex items-center justify-center h-full flex-col">
               <img src={springboot} alt="springboot" className="h-16 md:h-32 object-contain" />
-              <p>Spring Boot</p>
+              <p>Spring</p>
             </h3>
           </div>
           <div className="flex justify-center items-center h-48">
